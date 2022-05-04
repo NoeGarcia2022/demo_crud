@@ -16,14 +16,21 @@ public class Demo_crud {
             int n2 = Integer.parseInt(leer.readLine());
             
             Multiplicacion(n1, n2);
+            Resta(n1,n2);
             
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
         
     }
+    //metodo para la multiplicacion
     public static void Multiplicacion(int n1, int n2){
         int multi=n1*n2;
         System.out.println("La multiplicacion es: "+multi);
         }
+    
+    public static void Resta(int n1,int n2){
+        int resta=n1-n2;
+        System.out.println("La resta es: "+resta);
+    }
 }

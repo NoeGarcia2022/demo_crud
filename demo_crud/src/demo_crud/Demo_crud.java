@@ -33,4 +33,8 @@ public class Demo_crud {
         int resta=n1-n2;
         System.out.println("La resta es: "+resta);
     }
+    public static void Suma(int n1, int n2){
+      int Suma=n1+n2;
+      System.out.println("La suma es: "+Suma);
+}
 }

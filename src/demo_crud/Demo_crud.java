@@ -17,6 +17,7 @@ public class Demo_crud {
             
             Multiplicacion(n1, n2);
             Resta(n1,n2);
+            Dividir(n1,n2);
             
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -36,5 +37,10 @@ public class Demo_crud {
     public static void Suma(int n1, int n2){
       int Suma=n1+n2;
       System.out.println("La suma es: "+Suma);
+}
+    //metodo para la division
+    public static void Dividir(int n1, int n2){
+      int division = n1 / n2;
+      System.out.println("La division es: " + division );
 }
 }

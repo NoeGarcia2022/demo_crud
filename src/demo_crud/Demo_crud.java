@@ -35,9 +35,13 @@ public class Demo_crud {
         int resta=n1-n2;
         System.out.println("La resta es: "+resta);
     }
+<<<<<<< Updated upstream:src/demo_crud/Demo_crud.java
     public static void Suma(int n1, int n2){
       int Suma=n1+n2;
       System.out.println("La suma es: "+Suma);
+=======
+    
+>>>>>>> Stashed changes:demo_crud/src/demo_crud/Demo_crud.java
 }
     //metodo para la division
     public static void Dividir(int n1, int n2){

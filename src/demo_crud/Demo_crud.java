@@ -18,6 +18,7 @@ public class Demo_crud {
             Multiplicacion(n1, n2);
             Resta(n1,n2);
             Dividir(n1,n2);
+            Suma(n1, n2);
             
         } catch (IOException e) {
             System.out.println(e.getMessage());
